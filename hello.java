@@ -4,13 +4,10 @@ public class hello {
 
     public static void main(String [] args) {
 
-
-        String firstName = "Elizabeth";
-        String lastName = "Jones";
+        String firstName = "Eric";
+        String lastName = "Slowik";
 	
-        System.out.println("Hello Class!");
-
-
+        System.out.printf("Hello, my name is %s %s\n", firstName, lastName);
 
     }
 }
